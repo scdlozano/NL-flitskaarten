@@ -1,4 +1,6 @@
 import random
+import openai
+
 """
 Flash cards
 Other features I would add
