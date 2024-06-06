@@ -1,5 +1,6 @@
 import random
 import openai
+openai.api_key = 'API KEY'
 
 """
 Flash cards
@@ -8,8 +9,7 @@ Other features I would add
 - make a multiselect feature for multiple dictionaries
 - Make an OpenAI integration so that I could make AI-generated sentences 
 """
-
-h8_bij_de_maakelaar = {
+words = {
     "laten zien":"show", 
     "de computer":"computer",
     "derde":"third",
@@ -97,42 +97,67 @@ h8_bij_de_maakelaar = {
 
 def main():
     print("Welkom bij Flashcards!")
-    new_word = input_new_word()
-    while new_word == "j":
-        random_key = pick_word()
-        print_dutch_word(random_key)
-        NL_response = input_NL_response()
-        test_NL_response(random_key, NL_response)
-        input_new_word()
+    menu_options = ['Flashcard','Zinnenmaken']
+    print(menu_options)
+    selected_menu = input('Kies een opdracht: ')
+    if selected_menu == menu_options[0]:  
+        new_attempt = input_new_attempt()  
+        while new_attempt == "j":
+            random_key = pick_word()
+            print_dutch_word(random_key)
+            NL_word_response = input_NL_word_response()
+            test_NL_response(random_key, NL_word_response)
+            input_new_attempt()   
+    elif selected_menu == menu_options[1]:
+        new_attempt = input_new_attempt()  
+        while new_attempt == "j":
+            random_key = pick_word()  
+            send_to_GPT(random_key)
+    else: 
+        print("Dankje wel voor gebruiken!")
+        quit()
 
-def input_new_word():
-    new_word = input("(Her)starten? (j/n)")
-    if new_word == "j":
-       return new_word
+#Global function that will ask if you want to (re)start an exercise attempt
+def input_new_attempt():
+    new_attempt = input("(Her)starten? (j/n)")
+    if new_attempt == "j":
+       return new_attempt
     else:
       print("Dankje wel voor gebruiken!")
       quit()  
 
 #Selects a random key
 def pick_word():
-    random_key = random.choice(list(h8_bij_de_maakelaar.keys()))
+    random_key = random.choice(list(words.keys()))
     return random_key
 
 #Accesses the corresponding value for the selected random_key
 def print_dutch_word(random_key):
-    print(h8_bij_de_maakelaar[random_key])
+    print(words[random_key])
 
 #Asks for the NL response
-def input_NL_response():
-    NL_response = input("NL: ")
-    return NL_response
+def input_NL_word_response():
+    NL_word_response= input("NL: ")
+    return NL_word_response
 
 #Checks correctness of NL response with the corresponding key
-def test_NL_response(random_key, NL_response):
-    if NL_response == random_key:
+def test_NL_response(random_key, NL_word_response):
+    if NL_word_response == random_key:
         print("Juist!")
     else:
         print(f"Ontjuist! De juist antwoord is: {random_key}")
+
+#OPENAI INTEGRATION    
+def send_to_GPT(random_key):
+    context = "Please check the sentence for grammatical correctness in Dutch. Please do not include suggestions, just feedback."
+    NL_sentence_response = input(f"Jouw zin met '{random_key}': ")
+    response = openai.completions.create(
+        model="gpt-3.5-turbo-0125",
+        prompt=f"Question answering:\nContext: {context}\nTo check: {NL_sentence_response}\n Word: {random_key}",
+        stream=50
+    )
+    answer = response.choices[0].text.strip()
+    print(answer)
 
 if __name__ == '__main__':
     main()
