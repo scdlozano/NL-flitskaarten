@@ -2,9 +2,11 @@ import random
 """
 Flash cards
 Other features I would add
-- menu selection between sentences and translations
-- make a multiselect feature for multiple dictionaries
-- Make an OpenAI integration so that I could make AI-generated sentences 
+[x] menu selection between sentences and translations
+WIP: Make an OpenAI integration so that I could make AI-generated sentences 
+[] Make a point system
+[] Preview the words dictionary for revision
+[] Generate list of words that need further revision
 """
 
 words = {
