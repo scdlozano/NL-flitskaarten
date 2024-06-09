@@ -80,7 +80,6 @@ words = {
     'kennismaken':'get to know',
     'wie':'who',
     'wat':'what',
-    'jouw':'your (singular)',
     'de naam':'name',
     'mijn':'my',
     'dag':'day',
@@ -153,15 +152,11 @@ words = {
     'krijgen':'get / receive',
     'nog':'any',
     'het bezoek':'visit I visitors',
-    'de broer':'brother',
     'jonger (jong)':'younger',
     'maar':'but',
     'wel':'certainly',
     'langer (lang)':'taller',
     'nog meer':'any more',
-    'broers (broer)':'brothers',
-    'zus':'sister',
-    'de zus':'sister',
     'nog':'as well',
     'kijken':'to look',
     'de foto':'photo',
@@ -174,7 +169,6 @@ words = {
     'het haar':'hair',
     'donker':'dark',
 
-    'de ouders':'parents',
     'komen op bezoek (op bezoek komen)':'pay a visit',
     'op dit moment':'at the moment',
     'Indonesié':'Indonesia',
@@ -182,7 +176,6 @@ words = {
     'daar':'there',
     'op vakantie':'on holiday',
     'de vakantie':'holiday',
-    'de vader':'father',
     'voor':'for',
     'zijn':'his',
     'het werk':'work',
@@ -204,7 +197,7 @@ words = {
     'naar':'to',
 
     #Familierelaties
-    'het gezin':'family',
+    'het gezin':'family (immediate)',
     'de ouders':'parents',
     'de vader':'father',
     'de moeder':'mother',
@@ -215,7 +208,7 @@ words = {
     'de dochter':'daughter',
     'de broer':'brother',
     'de zus':'sister',
-    'de familie':'family',
+    'de familie':'family (incl.extended)',
     'de schoonzus':'sister in law',
     'de zwager':'brother in law',
     'de opa':'grandfather',
@@ -239,6 +232,7 @@ words = {
     'vrijdag':'Friday',
     'zaterdag':'Saturday',
     'zondag':'Sunday',
+
     # Maanden
     'de maand':'month',
     'januari':'January',
@@ -253,13 +247,15 @@ words = {
     'oktober':'October',
     'november':'November',
     'december':'December',
+
     #De seizoenen
     'de winter':'winter',
     'de lente / het voorjaar':'spring',
     'de zomer':'summer',
     'de herfst / het najaar':'fall',
+
     #In het cafe
-    'viert (vieren)':'is celebrating',
+    'vieren':'to celebrate',
     'de verjaardag':'birthday',
     'het café':'café / pub',
     'samen':'together',
@@ -271,16 +267,16 @@ words = {
     'elkaar':'one another',
     'drinken':'drink',
     'ik trakteer (trakteren)':"it's my treat",
-    'wil graag (graagwillen)':'would like',
+    'graagwillen':'would like',
     'de cola':'cola',
     'biertje (het bier)':'beer',
-    'neem (nemen)':'have (take)',
+    'nemen':'have (take)',
     'rode (rood)':'red',
     'de wijn':'wine',
-    'roep (roepen)':'call',
+    'roepen':'to call (a waiter)',
     'de Ober':'waiter',
-    'mag (mogen)':'may',
-    'besteilen':'order',
+    'mogen':'may',
+    'bestellen':'order',
     'alstublieft':'please',
     'Franse (Frans)':'French',
     'Spaanse (Spaans)':'Spanish',
@@ -308,6 +304,7 @@ words = {
     'afrekenen':'pay / settte the bill',
     'alfes':'everything',
     'daarom':"that's why",
+
     #Rangtelwoorden
     'eerste':'first',
     'tweede':'second',
@@ -422,7 +419,6 @@ words = {
     'herlijk':'delicious',
     'goedkope (goedkoop)':'cheap',
     'hoeveel':'how much',
-
     'nodig hebben':'need',
     'de persoon':'person',
     'ongeveer':'about',
@@ -443,6 +439,7 @@ words = {
     'geeft niet':"doesn't matter",
     'prettig':'nice',
     'het weekend':'weekend',
+
     #Groente
     'de courgette':'courgette',
     'de aubergine':'eggplant',
@@ -466,6 +463,7 @@ words = {
     'de zuurkool':'sauerkraut',
     'de ui':'onion',
     'de wortel':'carrot',
+
     #Vruchten
     'de aardbei':'strawberry',
     'de druif':'grape',
@@ -478,6 +476,7 @@ words = {
     'de mandarijn':'mandarin',
     'de kiwi':'kiwifruit',
     'de banaan':'banana',
+    
     #In het restaurant
     'de vriendin':'girlfriend',
     'het restaurant':'restaurant',
@@ -549,6 +548,7 @@ words = {
     'laten':'to leave',
     'dank u':'thank you',
     'de avond':'evening',
+
     #In de kledingzaak
     'normaal':'usually',
     'soms':'sometimes',
@@ -581,6 +581,7 @@ words = {
     'staan het best':'suits the best',
     'het best':'the best',
     'pinnen':'pay by card',
+
     #Kleuren
     'witte (wit)':'white',
     'zwarte (zwart)':'black',
@@ -601,6 +602,7 @@ words = {
     'geruit':'checkered',
     'gebloemd':'floral',
     'gestreept':'striped',
+
     #Kleding
     'de broek':'trousers',
     'de spijkerbroek':'denim jeans',
