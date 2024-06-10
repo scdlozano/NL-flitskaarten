@@ -735,16 +735,16 @@ def test_NL_response(random_key, NL_response):
         print("Juist!")
     else:
         print(f"Ontjuist! De juist antwoord is: {random_key}")
-        NL_response_retest = input("Antwoord opnieuw: ")
+        NL_response_retest = input("Opnieuw: ")
         if NL_response_retest == random_key:
-            print("Juiste!")
+            print("Juist!")
         else:
             print("Nee! Probeer het nog eens!")
             while NL_response_retest != random_key:
-                print("Ontjuiste!")
+                print("Ontjuist!")
                 NL_response_retest = input("Opnieuw: ")
                 if NL_response_retest == random_key:
-                    print("Juiste!")
+                    print("Juist!")
                     break
 
 if __name__ == '__main__':
