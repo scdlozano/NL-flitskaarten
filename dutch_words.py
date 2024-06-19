@@ -21,7 +21,7 @@ words = {
     'negen':'nine',
     'tien':'ten',
     'elf':'eleven',
-    'twelve':'twaalf',
+    'twaalf':'twelve',
     'dertien':'thirteen',
     'veertien':'fourteen',
     'vijftien':'fifteen',
@@ -90,16 +90,16 @@ words = {
     'welke (welk)':'which',
     'het land':'country',
     'Engeland':'England',
-    'kom (komen)':'come',
+    'komen':'to come',
     'de buurman':'neighbour',
     'van':'of',
     'hoe':'how (what)',
     'hoe heet jij?':"what's your name?",
-    'heet (heten)':'is called',
+    'heten':'is called (name)',
     'waar vandaan':'where from',
     'waar':'where',
     'China':'China',
-    'woon (wonen)':'live',
+    'wonen':'to live',
     'nu':'now',
     'het adres':'address',
     'het nummer':'number',
@@ -108,7 +108,7 @@ words = {
     'de postcode':'postal code',
     'u':'you (formal)',
     'mevrouw':'Ms / Mrs',
-    'woont (wonen)':'live',
+    'wonen':'to live',
     'ook':'also',
     'in':'in',
     'zeg (zeggen)':'call (say)',
@@ -151,7 +151,7 @@ words = {
     'de winter':'winter',
     'krijgen':'get / receive',
     'nog':'any',
-    'het bezoek':'visit I visitors',
+    'het bezoek':'visitor',
     'jonger (jong)':'younger',
     'maar':'but',
     'wel':'certainly',
@@ -171,7 +171,7 @@ words = {
 
     'komen op bezoek (op bezoek komen)':'pay a visit',
     'op dit moment':'at the moment',
-    'Indonesié':'Indonesia',
+    'Indonesië':'Indonesia',
     'doen':'to do',
     'daar':'there',
     'op vakantie':'on holiday',
@@ -192,7 +192,7 @@ words = {
     'wil (willen)':'want / would like',
     'laat':'late',
     '11.00 uur':"11 o'clock",
-    'moeten (moeten)':'should / have to',
+    'moeten':'should / have to',
     'weer':'again',
     'naar':'to',
 
@@ -201,7 +201,7 @@ words = {
     'de ouders':'parents',
     'de vader':'father',
     'de moeder':'mother',
-    'de man / de echgenoot':'husband',
+    'de man / de echtgenoot':'husband',
     'de vrouw / de echtgenote':'wife',
     'het kind':'child',
     'de zoon':'son',
@@ -301,7 +301,7 @@ words = {
     'geven':'give',
     'nog maar':'another',
     'het glas':'glass',
-    'afrekenen':'pay / settte the bill',
+    'afrekenen':'pay / settle the bill',
     'alfes':'everything',
     'daarom':"that's why",
 
@@ -344,13 +344,13 @@ words = {
     'de buurman':'neighbour',
     'de buuren':'neighbours',
     'niet zo':'not so',
-    'belangrijk':'important',
+    'belangrijke (belangrijk)':'important',
     'gaan':'go',
     'de week':'week',
     'een paar dagen':'a few days',
     'Venetië':'Venice',
     'wauw':'wow',
-    'prachtig':'fine / splendid',
+    'prachtige (prachtig)':'fine / splendid',
     'vele (veel)':'a lot',
     "foto's maken":'take photos',
     'sinds':'since',
@@ -359,7 +359,7 @@ words = {
     'romantische (romantisch)':'romantic',
     'de film':'film',
     'na':'after',
-    'kijken naar':'kiij at',
+    'kijken naar':'to look at',
     'direct':'right now',
     'iets':'something',
     'afspreken':'set a date / make an appointment',
@@ -410,13 +410,13 @@ words = {
     'sorry':'sorry',
     '(na)tuurlijk':'of course',
     'anders nog iets':'anything else',
-    'typisch':'typical',
+    'typische (typisch)':'typical',
     'het gerecht':'dish',
-    'buitenlanders (de buitenlander)':'foreigners',
+    'de buitenlander':'foreigner',
     'de stamppot':'mashed potato and veggies',
     'spekjes (het spekje)':'bacon',
     'vaak':'often',
-    'herlijk':'delicious',
+    'heerlijk':'delicious',
     'goedkope (goedkoop)':'cheap',
     'hoeveel':'how much',
     'nodig hebben':'need',
@@ -437,7 +437,7 @@ words = {
     'de cent':'cent',
     'erbij':'with it',
     'geeft niet':"doesn't matter",
-    'prettig':'nice',
+    'prettige (prettig)':'nice',
     'het weekend':'weekend',
 
     #Groente
@@ -474,7 +474,7 @@ words = {
     'de peer':'pear',
     'de sinaasappel':'orange',
     'de mandarijn':'mandarin',
-    'de kiwi':'kiwifruit',
+    'de kiwi':'kiwi fruit',
     'de banaan':'banana',
     
     #In het restaurant
@@ -484,7 +484,6 @@ words = {
     'de tafel':'table',
     'ons':'us',
     'bij':'at',
-    'het raam':'window',
     'gaan zitten':'sit down',
     'de menukaart':'menu',
     'alvast':'in the meantime',
@@ -514,7 +513,7 @@ words = {
     'de rijst':'rice',
     'o nee':'Oh no',
     'geen':'no',
-    'hetvlees':'meat',
+    'het vlees':'meat',
     'toch':'after all',
     'vegetarische (vegetarisch)':'vegetarian',
     'de dagschotel':"today's special",
@@ -530,7 +529,7 @@ words = {
     'het gaat wel':"it's okay",
     'de soort':'kind',
     'de paella':'paella',
-    'houd (houden) van':'like',
+    'houden van':'to love',
     'de mosselen':'mussels',
     'proef (proeven)':'try',
     'wat':'a little, a bit',
@@ -550,13 +549,13 @@ words = {
     'de avond':'evening',
 
     #In de kledingzaak
-    'normaal':'usually',
+    'normaal':'normally',
     'soms':'sometimes',
-    'groot':'large',
+    'grote (groot)':'large',
     'de kleur':'color',
     'wat voor':'what kind of',
     'het model':'style',
-    'lichte (licht)':'light',
+    'lichte (licht)':'light (adj)',
     'lage (laag)':'low',
     'verschillende (verschillend)':'different',
     'het merk':'brand',
@@ -686,7 +685,6 @@ words = {
     "de douche":"shower",
     "hoeven":"need",
     "het bad":"bath",
-    "het raam":"window",
     "de deur":"door",
     "de tuin":"garden",
     "het schuurtje":"small shed",
@@ -694,7 +692,92 @@ words = {
     "het raam":"window",
     "de tafel":"table",
     "het bed":"bed",
-    "de kast":"cupboard"
+    "de kast":"cupboard",
+
+    #H9 in the huisarts
+    "meneer" : "Mr",
+    "de doktor":"doctor / gp",
+    "wat is er aan de hand?":"what is wrong?",
+    "zoal":"as",
+    "zit ik onder de bultjes":"I have a rash / lumps",
+    "de bultjes (de bult)":"lumps",
+    "de arm":"arm",
+    "het been":"leg",
+    "de buik":"stomach",
+    "de rug":"back",
+    "het gezicht":"face",
+    "jeuken":"itch",
+    "verschrikkelijke (verschrikkelijke)":"terrible",
+    "van alles":"of everything",
+    "helpen":"to help",
+    "overdag":"during the day",
+    "de voetbalverniging":"football club",
+    "het wedstrijdje":"match (dim.)",
+    "de wedstrijde":"match",
+    "daarna":"after",
+    "bijzonders (bijzonder)":"special",
+    "afgelopen":"past / last few",
+    "vergeten":"to forget",
+    "denken":"to think",
+    "o ja":"oh yes",
+    "rijpe (rijp)":"ripe",
+    "de emmer":"bucket",
+    "volle (vol)":"full",
+    "vorige (vorig)":"previous",
+    "de klacht":"complaint",
+    "lijken op":"looks like",
+    "allergische (allergisch)":"allergic",
+    "geeft me (mee geven)":"give me",
+    "de zalf":"ointment",
+    "tegen":"against",
+    "anders":"otherwise",
+    "krabben":"scratch",
+    "kapot":"open (e.g wound)",
+    "sterkte":"good luck",
+
+    #Lichaamsdelen
+    "het hoofd":"head",
+    "de nek":"neck",
+    "de buik":"stomach",
+    "de rug":"back",
+    "de arm":"arm",
+    "de schouder":"shoulder",
+    "de hand":"hand",
+    "de vinger":"finger",
+
+    "de knie":"knee",
+    "de enkel":"ankle",
+    "de voet":"foot",
+
+    "de mond":"mouth",
+    "het oog":"eye",
+    "de neus":"nose",
+    "het oor":"ear",
+
+    #Dagdelen
+    "gisterochtend / gistermorgen":"yesterday morning (6-12)",
+    "de morgen":"morning",
+    "vanochtend / vanmorgen":"today morning (6-12)",
+    "morgenochtend":"tomorrow morning (6-12)",
+    "'s ochtends / 's morgens":"each morning",
+
+    "gistermiddag":"yesterday afternoon (12-18)",
+    "de middag":" afternoon",
+    "vanmiddag":"today afternoon (12-18)",
+    "morgenmiddag":"tomorrow afternoon (12-18)",
+    "'s middags":"each afternoon",
+
+    "gisteravond":"yesterday evening (18-24)",
+    "de avond":" evening",
+    "vanavond":"today evening (18-24)",
+    "morgenavond":"tomorrow evening (18-24)",
+    "'s avonds":"each evening",
+
+    "gisternacht":"yesterday night (0-6)",
+    "de nacht":" evening",
+    "vannacht":"today evening (0-6)",
+    "morgennacht":"tomorrow evening (0-6)",
+    "'s nachts":"each night",
 }
 
 def main():
@@ -732,19 +815,19 @@ def input_NL_response():
 #Checks correctness of NL response with the corresponding key
 def test_NL_response(random_key, NL_response):
     if NL_response == random_key:
-        print("Juist!")
+        print("Goed!")
     else:
-        print(f"Ontjuist! De juist antwoord is: {random_key}")
+        print(f"Fout! De juiste antwoord is: {random_key}")
         NL_response_retest = input("Opnieuw: ")
         if NL_response_retest == random_key:
-            print("Juist!")
+            print("Goed!")
         else:
             print("Nee! Probeer het nog eens!")
             while NL_response_retest != random_key:
-                print("Ontjuist!")
+                print("Fout!")
                 NL_response_retest = input("Opnieuw: ")
                 if NL_response_retest == random_key:
-                    print("Juist!")
+                    print("Goed!")
                     break
 
 if __name__ == '__main__':
