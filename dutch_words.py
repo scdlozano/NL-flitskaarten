@@ -21,7 +21,7 @@ words = {
     'negen':'nine',
     'tien':'ten',
     'elf':'eleven',
-    'twelve':'twaalf',
+    'twaalf':'twelve',
     'dertien':'thirteen',
     'veertien':'fourteen',
     'vijftien':'fifteen',
@@ -90,16 +90,16 @@ words = {
     'welke (welk)':'which',
     'het land':'country',
     'Engeland':'England',
-    'kom (komen)':'come',
+    'komen':'to come',
     'de buurman':'neighbour',
     'van':'of',
     'hoe':'how (what)',
     'hoe heet jij?':"what's your name?",
-    'heet (heten)':'is called',
+    'heten':'is called (name)',
     'waar vandaan':'where from',
     'waar':'where',
     'China':'China',
-    'woon (wonen)':'live',
+    'wonen':'to live',
     'nu':'now',
     'het adres':'address',
     'het nummer':'number',
@@ -108,7 +108,7 @@ words = {
     'de postcode':'postal code',
     'u':'you (formal)',
     'mevrouw':'Ms / Mrs',
-    'woont (wonen)':'live',
+    'wonen':'to live',
     'ook':'also',
     'in':'in',
     'zeg (zeggen)':'call (say)',
@@ -350,7 +350,7 @@ words = {
     'een paar dagen':'a few days',
     'Venetië':'Venice',
     'wauw':'wow',
-    'prachtig':'fine / splendid',
+    'prachtige (prachtig)':'fine / splendid',
     'vele (veel)':'a lot',
     "foto's maken":'take photos',
     'sinds':'since',
@@ -359,7 +359,7 @@ words = {
     'romantische (romantisch)':'romantic',
     'de film':'film',
     'na':'after',
-    'kijken naar':'kiij at',
+    'kijken naar':'to look at',
     'direct':'right now',
     'iets':'something',
     'afspreken':'set a date / make an appointment',
@@ -412,11 +412,11 @@ words = {
     'anders nog iets':'anything else',
     'typische (typisch)':'typical',
     'het gerecht':'dish',
-    'buitenlanders (de buitenlander)':'foreigners',
+    'de buitenlander':'foreigner',
     'de stamppot':'mashed potato and veggies',
     'spekjes (het spekje)':'bacon',
     'vaak':'often',
-    'herlijk':'delicious',
+    'heerlijk':'delicious',
     'goedkope (goedkoop)':'cheap',
     'hoeveel':'how much',
     'nodig hebben':'need',
@@ -437,7 +437,7 @@ words = {
     'de cent':'cent',
     'erbij':'with it',
     'geeft niet':"doesn't matter",
-    'prettig':'nice',
+    'prettige (prettig)':'nice',
     'het weekend':'weekend',
 
     #Groente
@@ -474,7 +474,7 @@ words = {
     'de peer':'pear',
     'de sinaasappel':'orange',
     'de mandarijn':'mandarin',
-    'de kiwi':'kiwifruit',
+    'de kiwi':'kiwi fruit',
     'de banaan':'banana',
     
     #In het restaurant
@@ -513,7 +513,7 @@ words = {
     'de rijst':'rice',
     'o nee':'Oh no',
     'geen':'no',
-    'hetvlees':'meat',
+    'het vlees':'meat',
     'toch':'after all',
     'vegetarische (vegetarisch)':'vegetarian',
     'de dagschotel':"today's special",
@@ -529,7 +529,7 @@ words = {
     'het gaat wel':"it's okay",
     'de soort':'kind',
     'de paella':'paella',
-    'houd (houden) van':'like',
+    'houden van':'to love',
     'de mosselen':'mussels',
     'proef (proeven)':'try',
     'wat':'a little, a bit',
@@ -549,9 +549,9 @@ words = {
     'de avond':'evening',
 
     #In de kledingzaak
-    'normaal':'usually',
+    'normaal':'normally',
     'soms':'sometimes',
-    'groot':'large',
+    'grote (groot)':'large',
     'de kleur':'color',
     'wat voor':'what kind of',
     'het model':'style',
@@ -727,7 +727,7 @@ words = {
     "de klacht":"complaint",
     "lijken op":"looks like",
     "allergische (allergisch)":"allergic",
-    "geeft me (mee geven)":"give",
+    "geeft me (mee geven)":"give me",
     "de zalf":"ointment",
     "tegen":"against",
     "anders":"otherwise",
@@ -815,19 +815,19 @@ def input_NL_response():
 #Checks correctness of NL response with the corresponding key
 def test_NL_response(random_key, NL_response):
     if NL_response == random_key:
-        print("Juist!")
+        print("Goed!")
     else:
-        print(f"Ontjuist! De juist antwoord is: {random_key}")
+        print(f"Fout! De juiste antwoord is: {random_key}")
         NL_response_retest = input("Opnieuw: ")
         if NL_response_retest == random_key:
-            print("Juist!")
+            print("Goed!")
         else:
             print("Nee! Probeer het nog eens!")
             while NL_response_retest != random_key:
-                print("Ontjuist!")
+                print("Fout!")
                 NL_response_retest = input("Opnieuw: ")
                 if NL_response_retest == random_key:
-                    print("Juist!")
+                    print("Goed!")
                     break
 
 if __name__ == '__main__':
